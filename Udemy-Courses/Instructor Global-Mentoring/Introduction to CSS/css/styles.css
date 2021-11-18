@@ -1,3 +1,9 @@
-h1{
+/* h1{
     color:aquamarine !important;
+} */
+
+/* Id selector: */
+#title{
+    color: burlywood;
+    text-align: center;
 }
