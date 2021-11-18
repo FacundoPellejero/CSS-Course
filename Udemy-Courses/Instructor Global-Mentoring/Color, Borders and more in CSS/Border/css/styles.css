@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.red{
+    border: 1px;
+    /* background-color: firebrick; */
+    
+}
+.pink{
+    background-color: hotpink;
+    
+}
+.yellow{
+    background-color: gold;
+}
+.blue{
+    background-color: turquoise;
+}

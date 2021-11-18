@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+.red{
+    background-color: firebrick;
+    
+}
+.pink{
+    background-color: hotpink;
+    
+}
+.pink, .red, .violet{
+    color: white;
+}
+.yellow{
+    background-color: gold;
+}
+.violet{
+    background-color: blueviolet;
+}
+.green{
+    background-color: lime;
+}
+.blue{
+    background-color: turquoise;
+}
