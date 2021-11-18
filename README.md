@@ -19,10 +19,10 @@ Instructor: Global Mentoring
 ### Contents
 
 - [Introduction to CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Introduction%20to%20CSS)
-- [Color, Borders and more in CSS]()
-- [Box Model in CSS]()
-- [Color handler in CSS]()
-- [Background in CSS]()
+- [Color, Borders and more in CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Color%2C%20Borders%20and%20more%20in%20CSS)
+- [Box Model in CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Box%20Model%20in%20CSS)
+- [Color handler in CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Color%20handler%20in%20CSS)
+- [Background in CSS]("./Udemy-Courses/Instructor Global-Mentoring/Background in CSS")
 - [Text format in CSS]()
 - [Fonts in CSS]()
 - [Icons in CSS]()
