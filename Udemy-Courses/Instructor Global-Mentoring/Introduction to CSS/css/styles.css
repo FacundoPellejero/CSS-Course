@@ -1,9 +1,27 @@
+/* Universal selector: * */
+*{
+    background-color: darkgray;
+    color: goldenrod;
+}
+
+
+
 /* h1{
     color:aquamarine !important;
 } */
 
-/* Id selector: */
+/* Id selector: id */
 #title{
     color: burlywood;
     text-align: center;
+    font-size: 100px;
+}
+
+/* CSS Class . */
+.center{
+    text-align: center;
+}
+
+.big-text{
+    font-size: 20px;
 }
