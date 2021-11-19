@@ -19,3 +19,41 @@ h1{
     border: 10px dotted hsl(174, 72%, 56%);
     /* background-color: turquoise; */
 }
+
+/* Borders:    */
+/*  
+/*
+*/
+.dotted{
+    border-style: dotted;
+}
+.discontinued{
+    border-style: dashed;
+}
+.solid{
+    border: 10px solid red;
+}
+.double{
+    border: 5px double;
+}
+.groove{
+    border: 10px groove;
+}
+.ridge{
+    border: 10px ridge;
+}
+.inset{
+    border: 10px inset;
+}
+.outset{
+    border: 10px outset;
+}
+.borderless{
+    border: none;
+}
+.hidden{
+    border: hidden;
+}
+.mixed{
+    border-style: dotted solid dashed double;
+}
