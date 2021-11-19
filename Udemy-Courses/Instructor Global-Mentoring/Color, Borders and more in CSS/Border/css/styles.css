@@ -1,6 +1,10 @@
 h1{
     text-align: center;
 }
+nav{
+    border: cornflowerblue solid 10px;
+    border-radius: 15px;
+}
 .red{
     border: 10px solid firebrick;
     /* background-color: firebrick; */
@@ -10,6 +14,10 @@ h1{
     border: 10px dashed rgb(255, 105, 180);
     /* background-color: hotpink; */
     
+}
+.rounded{
+    border: 5px blueviolet solid;
+    border-radius: 20px 0px 10px 0px;
 }
 .yellow{
     border: 10px double #ffd700;
@@ -27,15 +35,18 @@ h1{
 .dotted{
     border-style: dotted;
     border-width: 10px 5px 3px 2px;
+    border-color: crimson hotpink gold blue;
 }
 .discontinued{
     border-style: dashed;
     border-width: thick;
+    border-color: #451212;
     /* thin, medium thick */
 }
 .solid{
     border: solid red;
-    border-width: 10px 5px 2px;
+    border-width: 10px;
+    border-radius: 15px;
 }
 .double{
     border: 5px double blueviolet;
