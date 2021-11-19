@@ -26,15 +26,20 @@ h1{
 */
 .dotted{
     border-style: dotted;
+    border-width: 10px 5px 3px 2px;
 }
 .discontinued{
     border-style: dashed;
+    border-width: thick;
+    /* thin, medium thick */
 }
 .solid{
-    border: 10px solid red;
+    border: solid red;
+    border-width: 10px 5px 2px;
 }
 .double{
-    border: 5px double;
+    border: 5px double blueviolet;
+    border-width: 10px 5px;
 }
 .groove{
     border: 10px groove;
