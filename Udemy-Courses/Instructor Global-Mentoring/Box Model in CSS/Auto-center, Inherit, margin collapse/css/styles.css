@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color:coral;
+}
+.box1{
+    padding: 10px 15px 5px 15px;
+    border: 1px solid #457b9d;
+    margin: 30px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box
+}
+.box2{
+    padding: 10px 15px 5px 15px;
+    border: 1px solid #457b9d;
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+    box-sizing: border-box
+}
+h2{
+    /* Content -> Padding -> Border -> Margin*/
+    padding: 10px 15px 5px 15px;
+    border: 1px solid #457b9d;
+    /* Auto margin */
+    margin: 20px;
+    background-color: #f1faee;
+    max-width: 300px;
+
+    box-sizing: border-box;
+}
+p.internal{
+    margin-left: inherit; /*inherits from element father*/
+}
