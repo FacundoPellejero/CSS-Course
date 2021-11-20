@@ -1,18 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     text-align: center;
     color:coral;
 }
 div{
     /* Content -> Padding -> Border -> Margin*/
-    padding: 10px;
+    padding: 10px 15px 5px 15px;
     border: 15px solid #457b9d;
     margin: 20px;
     background-color: #f1faee;
-    width: 300px;
+    /* width: 300px; */
+    max-width: 100%; /*for responsive*/
+    max-height: 100px;
 
     /* Outline */
     /* Accepts every border style */
     outline: 10px solid #a8dadc;
     /* outline offset */
     outline-offset: 10px;
+    /* box sizing 
+        controls the total space
+    */
+    box-sizing: border-box;
 }
