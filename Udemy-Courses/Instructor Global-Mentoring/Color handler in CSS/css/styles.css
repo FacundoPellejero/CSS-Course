@@ -24,3 +24,15 @@ h1{
 .rgba{
     background-color: rgba(131, 56, 236, .5)
 }
+.hexa{
+    background-color: #0091ad;
+}
+.hexaT{
+    background-color: #0090ad57;
+}
+.hsl{
+    background-color: hsl(195, 100%, 50%);
+}
+.hsla{
+    background-color: hsla(195, 100%, 50%, .5);
+}
