@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto&effect=shadow-multiple&display=swap');
 
 h1{
     color: #ef476f;
@@ -30,6 +31,10 @@ h1{
     font-weight: normal;
     font-variant: small-caps;
     font-size: large;
+    /*font: font-style font-variant font-weight *font-size/line-heigth *font-family
+    * required
+    */ 
+
 }
 .font_georgia{
     font-family: Georgia, 'Times New Roman', Times, serif;
