@@ -2,19 +2,37 @@ h1{
     text-align: center;
     color: crimson;
 }
-div{
+div.relative{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 3px solid cornflowerblue;
+}
+div.absolute{
     /* Position types:
         -static (default)
           ->static do not accept top and bottom parameters
         -relative
+          ->to start position
         -fixed
+          ->fix position to viewport
         -absolute
+          ->absolute to father position
         -sticky
     */
-    position: relative;
-    top: 100px;
-    left: 50px;
-    max-width: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* max-width: 50%; */
     border: 3px solid firebrick;
-    margin: auto;
+    /* margin: auto; */
+}
+div.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    right: 10px;
+    border: 3px solid firebrick;
 }
