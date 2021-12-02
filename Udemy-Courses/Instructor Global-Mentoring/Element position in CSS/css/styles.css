@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    /* Position types:
+        -static (default)
+          ->static do not accept top and bottom parameters
+        -relative
+        -fixed
+        -absolute
+        -sticky
+    */
+    position: relative;
+    top: 100px;
+    left: 50px;
+    max-width: 50%;
+    border: 3px solid firebrick;
+    margin: auto;
+}
