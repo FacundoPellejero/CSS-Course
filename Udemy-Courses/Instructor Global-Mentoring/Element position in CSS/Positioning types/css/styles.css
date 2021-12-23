@@ -2,16 +2,16 @@ h1{
     text-align: center;
     color: crimson;
 }
-div.relative{
+/* div.relative{
     max-width: 300px;
     height: 200px;
     position: relative;
     top: 10px;
     left: 100px;
     border: 3px solid cornflowerblue;
-}
-div.absolute{
-    /* Position types:
+} */
+/* div.absolute{
+    Position types:
         -static (default)
           ->static do not accept top and bottom parameters
         -relative
@@ -21,18 +21,44 @@ div.absolute{
         -absolute
           ->absolute to father position
         -sticky
-    */
+   
     position: absolute;
     bottom: 10px;
     right: 10px;
-    /* max-width: 50%; */
+    max-width: 50%;
     border: 3px solid firebrick;
-    /* margin: auto; */
-}
+    margin: auto;
+} */
 div.sticky{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
     right: 10px;
     border: 3px solid firebrick;
+}
+div.static{
+  position: static;
+  padding: 15px;
+  border: 3px solid greenyellow;
+  background-color: whitesmoke;
+}
+div.relative{
+  position: relative;
+  top: 10px;
+  left: 10px;
+  padding: 15px;
+  border: 3px solid blueviolet;
+  background-color: whitesmoke;
+
+  /* z-index: set the z position like layers*/
+  
+}
+div.absolute{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 112px;
+  border: 3px solid cornflowerblue;
+  background-color: whitesmoke;
+  z-index: -1;
 }
