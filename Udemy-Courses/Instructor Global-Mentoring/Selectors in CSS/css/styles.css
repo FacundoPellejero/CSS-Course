@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+div.container{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid slateblue;
+    padding: 15px;
+    color:teal;
+}
+div.container.descendant p{
+    background-color: #fdffb6;
+}
+div.container.child > p{
+    background-color: #ffc6ff;
+}
