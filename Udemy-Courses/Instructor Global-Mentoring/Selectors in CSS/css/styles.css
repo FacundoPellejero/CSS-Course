@@ -16,3 +16,9 @@ div.container.descendant p{
 div.container.child > p{
     background-color: #ffc6ff;
 }
+div.container.adjacent + p{
+    background-color: #caffbf;
+}
+div.container.sibling ~ p{
+    background-color: #9bf6ff;
+}
