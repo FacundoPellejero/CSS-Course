@@ -4,44 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selectors in CSS</title>
+    <title>Pseudo-classes in CSS</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Selectors in CSS</h1>
-    <div class="container descendant">
-        Descendant selectors
+    <h1>Pseudo-classes in CSS</h1>
+
+    <div class="container hidden">
+        Hover here
+        <p>Show this paragraph</p>
+    </div>
+
+    <div class="container first">
         <p>First paragraph</p>
         <p>Second paragraph</p>
-        <section>
-            <p>Third paragraph</p>
-        </section>
     </div>
-
-    <div class="container child">
-        Child selectors
-        <p>First paragraph</p>
-        <p>Second paragraph</p>
-        <section>
-            <p>Third paragraph</p>
-        </section>
-        <div><p>Fourth paragraph</p></div>
-        <p>Fifht paragraph</p>
-    </div>
-
-
-    <div class="container adjacent">
-        Adjacent selector
-        <p>First paragraph</p>
-    </div>
-    <p>Second paragraph</p>
-    <p>Third paragraph</p>
-
-    <div class="container sibling">
-        Sibling selector
-        <p>First paragraph</p>
-    </div>
-    <p>Second paragraph</p>
-    <p>Third paragraph</p>
 </body>
 </html>

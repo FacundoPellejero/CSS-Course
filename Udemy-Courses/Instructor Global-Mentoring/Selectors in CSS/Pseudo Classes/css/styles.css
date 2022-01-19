@@ -3,22 +3,30 @@ h1{
     color: brown;
 }
 div.container{
-    width: 80%;
+    width: 30%;
     height: 20%;
     margin: auto;
     border: 3px solid slateblue;
     padding: 15px;
     color:teal;
+    text-align: center;
 }
-div.container.descendant p{
-    background-color: #fdffb6;
+div.container:hover{
+    background-color: #457b9d;
+    color: #f1faee;
 }
-div.container.child > p{
-    background-color: #ffc6ff;
+div.container.hidden p {
+    display: none;
 }
-div.container.adjacent + p{
-    background-color: #caffbf;
+div.container.hidden:hover p{
+    display: block;
+    background-color: #a8dadc;
+    color: #023e8a;
+    padding: 15px;
 }
-div.container.sibling ~ p{
-    background-color: #9bf6ff;
+div.container.first p:first-child{
+    font-variant: small-caps;
 }
+/* div.container.first:hover p:first-child{
+    font-variant: small-caps;
+} */
