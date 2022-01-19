@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: brown;
+}
+div.container{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid slateblue;
+    padding: 15px;
+    color:teal;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+}
