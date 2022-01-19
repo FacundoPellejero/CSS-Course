@@ -23,3 +23,9 @@ div.container p::first-line{
 div.container p::first-letter{
     font-size: 1.5em;
 }
+div.container p::before{
+    content: "- ";
+}
+div.container p::after{
+    content: " -";
+}
