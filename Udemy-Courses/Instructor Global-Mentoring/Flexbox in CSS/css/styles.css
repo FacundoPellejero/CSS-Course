@@ -4,12 +4,15 @@ h1{
     color: #e63046;
 }
 div.container{
-    display: flex;
+    display: flex; /* Flexbox -> display: flex;  */
     background-color: #560dad;
     /* flex-direction: column-reverse; */
     /* flex-direction: row;
-    flex-wrap: wrap; */
-    flex-flow: row wrap;
+    flex-wrap: wrap; */ 
+    flex-flow: row wrap; /* mix flex-direction w/ flex wrap */
+    justify-content: space-evenly; /* space direction */
+    height: 300px;
+    align-items: center;
 }
 div.container > p{
     background-color: #4895ef;
