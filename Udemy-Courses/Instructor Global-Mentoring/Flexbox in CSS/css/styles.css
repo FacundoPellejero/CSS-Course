@@ -6,6 +6,10 @@ h1{
 div.container{
     display: flex;
     background-color: #560dad;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
 }
 div.container > p{
     background-color: #4895ef;
