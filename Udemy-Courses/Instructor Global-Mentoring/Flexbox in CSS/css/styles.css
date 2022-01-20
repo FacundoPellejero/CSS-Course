@@ -13,6 +13,7 @@ div.container{
     justify-content: space-evenly; /* space direction */
     height: 300px;
     align-items: center;
+    align-content: center; /* vertical align */
 }
 div.container > p{
     background-color: #4895ef;
