@@ -36,4 +36,4 @@ Instructor: Global Mentoring
 
 ### Certification
 
-[Certification here](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Certification)
+[Certification here](https://github.com/FacundoPellejero/CSS-Course/blob/main/Udemy-Courses/Instructor%20Global-Mentoring/Certification/UC-0b7c6822-ade4-43ba-bab0-dedcf7969303.pdf)
