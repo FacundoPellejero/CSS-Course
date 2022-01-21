@@ -31,7 +31,8 @@ Instructor: Global Mentoring
 - [Selectors in CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Selectors%20in%20CSS)
 - [Gradients in CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Gradients%20in%20CSS)
 - [Flexbox in CSS](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Flexbox%20in%20CSS)
-- [Final class](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Final%20class)
+- [Final class](https://github.com/FacundoPellejero/CSS-Course/tree/main/Udemy-Courses/Instructor%20Global-Mentoring/Final%20class) 
+[- Run final class here](https://codepen.io/MartianSnorlax/pen/gOGNWYJ)
 
 ### Certification
 
